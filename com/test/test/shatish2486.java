@@ -1,3 +1,4 @@
+package com.test.test;
 
 import java.util.Scanner;
 public class shatish2486 {

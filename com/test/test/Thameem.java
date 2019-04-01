@@ -1,3 +1,4 @@
+package com.test.test;
 
 public class Thameem {
 	public static void main(String[] args) {

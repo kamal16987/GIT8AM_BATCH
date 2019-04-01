@@ -1,3 +1,4 @@
+package com.test.test;
 
 public class Farith {
 	public static void main(String[] args) {
@@ -20,4 +21,3 @@ System.out.println(count1);
 	
 }}
 
-}

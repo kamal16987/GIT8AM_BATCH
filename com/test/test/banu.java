@@ -1,3 +1,4 @@
+package com.test.test;
 
 public class Banu {
 	public static void main(String[] args) {
@@ -13,9 +14,5 @@ public class Banu {
 		System.out.println(count);
 
 	}
-
-	}}
-
-}
 
 }
