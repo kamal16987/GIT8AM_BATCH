@@ -11,10 +11,7 @@ public class Nandini {
 			if(ch=='e') {
 				count++;
 			}
-			else(ch=='a'){
-				count1++;
-			}
-			
+	
 		}
 		System.out.println(count);
 		System.out.println(count1);
