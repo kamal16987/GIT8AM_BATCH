@@ -1,6 +1,6 @@
 package com.test.test;
 
-public class Banu {
+public class banu {
 	public static void main(String[] args) {
 		String s1 = "hi my name is";
 		int count = 0;
