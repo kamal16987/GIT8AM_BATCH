@@ -4,7 +4,7 @@ public class Merge1 {
 
 	public static void main(String[] args) {
 		
-			System.out.println("Day2 task is cloning & merging ");
+			System.out.println("Day2 task was cloning & merging ");
 			//two method added
 		}
 
