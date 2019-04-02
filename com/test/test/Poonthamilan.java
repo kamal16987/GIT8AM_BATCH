@@ -7,10 +7,8 @@ public class Poonthamilan {
 		for (int i = 0; i < ch.length; i++) {
 			int count = 0;
 			char charAt = str.charAt(i);
-			for (int j = 0; j < ch.length; j++) {
-				if (charAt == ch[j]) {
-					count++;
-				}
+			if (charAt == 'a') {
+				count++;
 			}
 			System.out.println(charAt + "=" + count);
 		}
