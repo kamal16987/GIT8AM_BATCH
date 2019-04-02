@@ -4,7 +4,7 @@ public class Vickeybala
 {
 	public static void main(String[] args) 
 	{
-		String s = "cloaning has successful";
+		String s = "cloaning has successfully added";
 		char[] c = s.toCharArray();
 		for (int i = 0; i < c.length; i++)
 		{
