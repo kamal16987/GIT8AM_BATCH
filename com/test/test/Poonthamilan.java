@@ -12,9 +12,7 @@ public class Poonthamilan {
 					count++;
 				}
 			}
-			if (count > 0) {
-				System.out.println(charAt + "=" + count);
-			}
+			System.out.println(charAt + "=" + count);
 		}
 	}
 }
