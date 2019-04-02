@@ -7,10 +7,10 @@ public class Ashok {
 		int count=0;
 		for (int i = 0; i < txt.length(); i++) {
 			char a=txt.charAt(i);
-			if (a=='a') {
+			if (a=='y') {
 				count++;
 			}
 		}
-		System.out.println("number of a in txt="+count);
+		System.out.println("number of y in txt="+count);
 	}
 }
