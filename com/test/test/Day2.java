@@ -33,7 +33,8 @@ public class Day2 {
 		System.out.println(x[0]);
 		System.out.println(x[1]);
 		System.out.println(s);
-		String q=s.trim();
+		String q=s.trim(); 
+		
 		System.out.println(q);
 				
 	}
