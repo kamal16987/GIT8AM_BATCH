@@ -1,7 +1,13 @@
 package com.test.test;
 
 public class BaseClass {
+	
+	public void method()
+	{
+		System.out.println("hello");
+	}
 
+<<<<<<< HEAD
 	public static void main(String[] args) 
 	{
 	int num=0,sum=0, n=1234;
@@ -17,6 +23,15 @@ public class BaseClass {
 		System.out.println(sum);
 		
 	}
+=======
+	public static void main(String[] args) {
+		
+BaseClass bd=new BaseClass();
+		bd.method();
+	System.out.println("modified");	
+>>>>>>> master
 
+
+}
 
 }

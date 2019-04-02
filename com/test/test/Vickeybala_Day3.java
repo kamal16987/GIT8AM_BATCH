@@ -1,10 +1,9 @@
 package com.test.test;
 
-public class Vickeybala
-{
+public class Vickeybala_Day3 {
 	public static void main(String[] args) 
 	{
-		String s = "cloaning has successfully added";
+		String s = "Vickey Bala is a good boy";
 		char[] c = s.toCharArray();
 		for (int i = 0; i < c.length; i++)
 		{
@@ -22,4 +21,5 @@ public class Vickeybala
 			}
 		}
 	}
+
 }
