@@ -11,7 +11,7 @@ public class BaseClass {
 		
 BaseClass bd=new BaseClass();
 		bd.method();
-		
+	System.out.println("modified");	
 
 }
 
