@@ -10,9 +10,7 @@ public class Poonthamilan {
 			if (charAt == 'a') {
 				count++;
 			}
-			if (count > 0) {
-				System.out.println(charAt + "=" + count);
-			}
+			System.out.println(charAt + "=" + count);
 		}
 	}
 }
