@@ -6,5 +6,9 @@ public class BaseClass {
 		System.out.println("Created a Baseclass...");
 
 	}
+	
+	public void Quitbrowser() {
+		System.out.println("close browser");
+	}
 
 }
