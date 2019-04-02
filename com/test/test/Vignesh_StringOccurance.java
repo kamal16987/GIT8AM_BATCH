@@ -3,8 +3,13 @@ package com.test.test;
 import java.util.Scanner;
 
 public class Vignesh_StringOccurance {
+	public void display() {
+		System.out.println("to display the string occurance value ");
+	}
 
 	public static void main(String[] args) {
+		Vignesh_StringOccurance v= new Vignesh_StringOccurance();
+		v.display();
 		 Scanner sc = new Scanner(System.in);
 	        System.out.println("Enter a string to find string occurance");
 	        String s = sc.next();											
