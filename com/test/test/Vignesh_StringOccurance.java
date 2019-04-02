@@ -3,6 +3,9 @@ package com.test.test;
 import java.util.Scanner;
 
 public class Vignesh_StringOccurance {
+	public void branchOne() {
+		System.out.println("Branch 1 value were been added");
+	}
 
 	public static void main(String[] args) {
 		 Scanner sc = new Scanner(System.in);
