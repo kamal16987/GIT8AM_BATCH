@@ -2,11 +2,7 @@ package com.test.test;
 
 public class BaseClass {
 
-	private void mergeConflict() {
-		System.out.println("trying to resolve the merge conflict");
-
-	}
-
+	
 
 
 	public static void main(String[] args) 
