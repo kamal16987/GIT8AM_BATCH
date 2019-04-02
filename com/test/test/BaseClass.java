@@ -2,30 +2,24 @@ package com.test.test;
 
 public class BaseClass {
 
-	public static void main(String[] args) {
-		System.out.println("Created a Baseclass...");
-		System.out.println("I am going to modify the baseclass.");
-		//WebDriver e = new chromeDriver();		
-	}
-	
-	public void setValueInTextBox() {
-		
-	}
-		
-	public BaseClass() {
-		
-	}
-	
-	public void launchBrowser() {
-		System.out.println("Added launch browser method");
-	}
-	
-	public void selectDropdown() {
-		System.out.println("Added select Dropdown method");
-	}
-	
-	public void selectCheckbox() {
-		System.out.println("Added select Checkbox method");
-	}
+	public static void main(String[] args) 
+	{
 
-}
+		        int num = 370, number, temp, total = 0;
+
+		        number = num;
+		        while (number != 0)
+		        {
+		            temp = number % 10;
+		            total = total + temp*temp*temp;
+		            number /= 10;
+		        }
+
+		        if(total == num)
+		            System.out.println(num + " is an Armstrong number");
+		        else
+		            System.out.println(num + " is not an Armstrong number");
+		    }
+		}
+
+
