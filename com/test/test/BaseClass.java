@@ -3,28 +3,16 @@ package com.test.test;
 public class BaseClass {
 
 	public static void main(String[] args) {
-		System.out.println("I am going to modify the baseclass.");
-		//WebDriver e = new chromeDriver();		
-	}
-	
-	public void setValueInTextBox() {
-		
-	}
-		
-	public BaseClass() {
-		
-	}
-	
-	public void launchBrowser() {
-		System.out.println("Added launch browser method");
-	}
-	
-	public void selectDropdown() {
-		System.out.println("Added select Dropdown method");
-	}
-	
-	public void selectCheckbox() {
-		System.out.println("Added select Checkbox method");
-	}
+
+        int num1 = 55, num2 = 121, gcd = 1;
+        for(int i = 1; i <= num1 && i <= num2; i++)
+        {
+            if(num1%i==0 && num2%i==0)
+                gcd = i;
+        }
+
+        System.out.printf("GCD of %d and %d is: %d", num1, num2, gcd);
+    }
 
 }
+
