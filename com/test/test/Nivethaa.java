@@ -25,6 +25,8 @@ public class Nivethaa {
 		str2.append(s);
 		str2 = str2.reverse();
 		System.out.println(str2);
+		
+		
 
 	}
 
