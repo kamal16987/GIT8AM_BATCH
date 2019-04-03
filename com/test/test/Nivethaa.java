@@ -21,10 +21,11 @@ public class Nivethaa {
 			System.out.println(i);
 		}
 
-		StringBuilder str2 = new StringBuilder();
-		str2.append(s);
-		str2 = str2.reverse();
-		System.out.println(str2);
+		char[] char1= s.toCharArray();
+		System.out.println("Reverse String : ");
+		for (int i = char1.length-1; i >= 0; i--) {
+			System.out.print(char1[i]);
+		}
 
 	}
 
