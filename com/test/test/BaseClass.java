@@ -13,10 +13,7 @@ public class BaseClass {
 		}
 		System.out.println("bbbbb");
 		System.out.println(sum);
-		System.out.println("hi");
-		System.out.println("aaaaaaaa");
-		System.out.println("hello");
-		System.out.println("hhh");
+		
 	}
 
 }
