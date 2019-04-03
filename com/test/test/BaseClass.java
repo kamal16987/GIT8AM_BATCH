@@ -11,7 +11,9 @@ public class BaseClass {
 			n = n / 10;
 
 		}
+		System.out.println("hi");
 		System.out.println(sum);
+		System.out.println("hello");
 	}
 
 }
