@@ -20,6 +20,22 @@ public class Nivethaa_Day3 {
 		for (int i : noDup) {
 			System.out.println(i);
 		}
+		//number of repeated values
+		int size =arr.length;
+		int dup = size-noDup.size();
+		System.out.println("Total No of duplicates : "+dup);
+		int count=0;
+		//counting repeating elements using array
+		for (int j : noDup) {
+		    for (int i = 0; i < arr.length; i++) {
+				if(arr[i]==j) {
+					count++;
+				}
+			}
+			System.out.println(j+":"+count);
+			count=0;
+		}
+				
 	}
 
 }
