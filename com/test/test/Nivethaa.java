@@ -20,7 +20,12 @@ public class Nivethaa {
 		for (Entry<Character, Integer> i : es) {
 			System.out.println(i);
 		}
-
+		
+		 char chars[] = s.toCharArray(); 
+		         for(int i= chars.length-1; i>=0; i--) {
+		             System.out.print(chars[i]);
+		 
+		         }
 
 	}
 	public static void main(String[] args) {
