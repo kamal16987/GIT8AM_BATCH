@@ -20,7 +20,14 @@ public class Nivethaa {
 		for (Entry<Character, Integer> i : es) {
 			System.out.println(i);
 		}
+
+		StringBuilder str2 = new StringBuilder();
+		str2.append(s);
+		str2 = str2.reverse();
+		System.out.println(str2);
+
 	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string : ");
