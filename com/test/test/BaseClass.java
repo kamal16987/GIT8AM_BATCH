@@ -12,6 +12,8 @@ public class BaseClass {
 
 		}
 		System.out.println(sum);
+		System.out.println(sum);
+		System.out.println(sum);
 	}
 
 }
