@@ -1,4 +1,4 @@
-package org.test;
+package  src.org.test;
 
 
 	import java.util.List;
