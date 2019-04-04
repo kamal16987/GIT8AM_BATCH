@@ -28,6 +28,13 @@ public class karthick {
 		public static void main(String[] args) {
 		   occurance("good things happens to good people");
 		   occurance("make things happen");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
+		   System.out.println("Checking Mergin concept");
 		   occurance("leader is not the one who has too many fallowers, the one who "
 		   		+ "creates many leaders is a great leader"); 
 

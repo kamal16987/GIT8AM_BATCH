@@ -21,6 +21,11 @@ public class Nivethaa {
 			System.out.println(i);
 		}
 	}
+	
+	public void addingMethod() {
+		System.out.println("Added this method to identify the merge conflicrt");
+	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string : ");
